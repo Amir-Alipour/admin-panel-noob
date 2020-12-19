@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="d-flex align-items-center">
+            <a href="#" class="navbar-brand display-2 ml-3">پنل مدیریت محتوا</a>
+            <i class="fas fa-angle-double-right h4 text-secondary" style="cursor: pointer;" data-toggle="collapse"
+                data-target="#sidebar"></i>
+        </div>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ml-3 d-lg-flex justify-content-lg-between" id="mainMenu">
+            <nav class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">
+                        <i class="fas fa-tachometer-alt text-success"></i>
+                        پیشخوان
+                    </a></li>
+                <li class="nav-item"><a href="#" class="nav-link">
+                        <i class="fa fa-users text-info" aria-hidden="true"></i>
+                        کاربران
+                    </a></li>
+                <li class="nav-item"><a href="#" class="nav-link">
+                        <i class="fa fa-cog text-danger" aria-hidden="true"></i>
+                        تنظیمات
+                    </a></li>
+            </nav>
+
+            <nav class="navbar-nav align-items-center d-none d-lg-flex">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown">
+                        <span class="badge badge-pill badge-danger">5</span>
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="dropdown-header text-center bg-danger text-white">شما 5 اعلان دارید</div>
+                            <a href="#" class="dropdown-item text-secondary">6 سفارش جدید</a>
+                            <a href="#" class="dropdown-item text-secondary">120 کاربر جدید</a>
+                            <a href="#" class="dropdown-item text-secondary">8 گیگ اپلود</a>
+                            <a href="#" class="dropdown-item text-secondary">6 گیگ دانلود</a>
+                            <a href="#" class="dropdown-item text-secondary">48 تایید 2 مرحله ای</a>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown">
+                        <span class="badge badge-pill badge-warning">7</span>
+                        <i class="fa fa-tasks" aria-hidden="true"></i>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="dropdown-header text-center bg-warning text-white">شما 7 درحال اجرا دارید</div>
+                            <a href="#" class="dropdown-item text-secondary">3 ارسال اخطار</a>
+                            <a href="#" class="dropdown-item text-secondary">2 ریپورت</a>
+                            <a href="#" class="dropdown-item text-secondary">40 لایک</a>
+                            <a href="#" class="dropdown-item text-secondary">32 ورود به حساب</a>
+                            <a href="#" class="dropdown-item text-secondary">14 خروج از حساب</a>
+                            <a href="#" class="dropdown-item text-secondary">8 اسپم</a>
+                            <a href="#" class="dropdown-item text-secondary">2 بلاک</a>
+
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown">
+                        <span class="badge badge-pill badge-info">3</span>
+                        <i class="fa fa-comment" aria-hidden="true"></i>
+                        <div class="dropdown-menu dropdown-menu-right" style="width: 120px;">
+                            <div class="dropdown-header text-center bg-info text-white">شما 3 پیغام دارید</div>
+                            <a href="#" class="dropdown-item">
+                                <h5>پشتیبانی</h5>
+                                <p>
+                                    سلام خسته نباشید
+                                </p>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <h5>ریپورت</h5>
+                                <p>
+                                    مشکل شدید
+                                </p>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <h5>نظرات</h5>
+                                <p>
+                                    بسیار عالی
+                                </p>
+                            </a>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-toggle="dropdown">
+                        <img src="images/1.png" width="40" alt="">
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="dropdown-header text-center bg-primary text-white">پروفایل</div>
+                            <a href="#" class="dropdown-item text-secondary">نام کاربری</a>
+                            <a href="#" class="dropdown-item text-secondary">رمز ورود</a>
+                            <a href="#" class="dropdown-item text-secondary">کوپن</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item text-secondary text-center">خروچ</a>
+                        </div>
+                    </a>
+                </li>
+            </nav>
+        </div>
+    </nav>
+    <!-- ----------------------------- Navbar END ----------------------------------- -->
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-5 col-sm-4 col-md-2 bg-dark collapse show position-fixed" id="sidebar">
+                <ul class="nav d-flex flex-column mt-3">
+                    <li class="nav-item my-1"><a href="#submenu1" class="nav-link collapsed" data-toggle="collapse">
+                            <i class="fas fa-pen mr-2"></i>
+                            نوشته ها
+                            <i class="fa fa-chevron-left float-right" aria-hidden="true"></i>
+                        </a>
+                        <div class="collapse bg-secondary rounded" id="submenu1">
+                            <ul class="nav">
+                                <li class="nav-item"><a href="#" class="nav-link border-bottom">مشاهده نوشته ها</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">افزودن نوشته</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item my-1"><a href="#submenu2" class="nav-link collapsed" data-toggle="collapse">
+                            <i class="fa fa-shopping-cart mr-2" aria-hidden="true"></i>
+                            محصولات
+                            <i class="fa fa-chevron-left float-right" aria-hidden="true"></i>
+                        </a>
+                        <div class="collapse bg-secondary rounded" id="submenu2">
+                            <ul class="nav">
+                                <li class="nav-item"><a href="#" class="nav-link border-bottom">مشاهده محصولات</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">افزودن محول</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item my-1"><a href="#" class="nav-link">
+                            <i class="fa fa-comment mr-2" aria-hidden="true"></i>
+                            نظرات
+                        </a></li>
+                    <li class="nav-item my-1"><a href="#" class="nav-link">
+                            <i class="fas fa-video mr-2"></i>
+                            رسانه ها
+                        </a></li>
+                    <li class="nav-item my-1"><a href="#" class="nav-link">
+                            <i class="fa fa-users mr-2" aria-hidden="true"></i>
+                            کاربران
+                        </a></li>
+                    <li class="nav-item my-1"><a href="#" class="nav-link">
+                            <i class="fa fa-cog mr-2" aria-hidden="true"></i>
+                            تنظیمات
+                        </a></li>
+                </ul>
+            </div>
+            <!-- ----------------------------- Sidebar END ----------------------------------- -->
+
+            <div id="main-content" class="col-12 col-md-10 p-4 ml-auto">
+                <div class="card-deck">
+                    <div class="card text-white bg-success mb-3 border-0 shadow">
+                        <div class="card-body">
+                            <i class="fas fa-chart-bar h5 float-right"></i>
+                            <h5 class="card-title">5300</h5>
+                            <p class="card-text">نعداد بازدید روزانه</p>
+                            <canvas id="chart1" class="w-100" height="100"></canvas>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-primary mb-3 border-0 shadow">
+                        <div class="card-body">
+                            <i class="fas fa-users h5 float-right"></i>
+                            <h5 class="card-title">4200</h5>
+                            <p class="card-text">نعداد کاربران روزانه</p>
+                            <canvas id="chart2" class="w-100" height="100"></canvas>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-danger mb-3 border-0 shadow">
+                        <div class="card-body">
+                            <i class="fas fa-chart-pie h5 float-right"></i>
+                            <h5 class="card-title">36000</h5>
+                            <p class="card-text">حجم اپلود روزانه</p>
+                            <canvas id="chart3" class="w-100" height="100"></canvas>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-warning mb-3 border-0 shadow">
+                        <div class="card-body">
+                            <i class="fas fa-chart-line h5 float-right"></i>
+                            <h5 class="card-title">30000</h5>
+                            <p class="card-text">حجم دانلود روزانه</p>
+                            <canvas id="chart4" class="w-100" height="100"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------------------------- Card Drck END ----------------------------------- -->
+
+                <div class="card text-dark bg-white my-3 border-0 shadow">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <b class="card-title h3" style="font-weight: bold;">آمار بازدید سایت</b>
+                            <div class="btn-group btn-group-toggle" role="group"
+                                aria-label="Basic radio toggle button group">
+
+                                <label class="btn btn-outline-secondary" for="btnradio1">روز
+                                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1"
+                                        autocomplete="off">
+                                </label>
+                                <label class="btn btn-outline-secondary" for="btnradio2">ماه
+                                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2"
+                                        autocomplete="off">
+
+                                </label>
+                                <label class="btn btn-outline-secondary active" for="btnradio3">سال
+                                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3"
+                                        autocomplete="off">
+
+                                </label>
+                            </div>
+
+                            <button class="btn btn-warning" data-toggle="tooltip" title="گرفتن خروجی">
+                                <i class="fas fa-file-export"></i>
+                            </button>
+                        </div>
+
+                        <canvas id="visit" class="w-100 mt-5" height="500"></canvas>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row text-center">
+                            <div class="col-12 col-sm-6 col-md my-2 my-md-0">
+                                <strong class="text-muted">بازدید کل</strong>
+                                <p class="my-3">603000 کاربر (40%)</p>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated"
+                                        style="width: 40%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md my-2 my-md-0">
+                                <strong class="text-muted">بازدید های یکتا</strong>
+                                <p class="my-3">49000 کاربر (55%)</p>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                        style="width: 55%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md my-2 my-md-0">
+                                <strong class="text-muted">بازدید مداوم</strong>
+                                <p class="my-3">80000 کاربر (63%)</p>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+                                        style="width: 63%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md my-2 my-md-0">
+                                <strong class="text-muted">کاربران جدید</strong>
+                                <p class="my-3">77000 کاربر (65%)</p>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                        style="width: 65%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md my-2 my-md-0">
+                                <strong class="text-muted">نرخ خروج</strong>
+                                <p class="my-3">5500 کاربر (28%)</p>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated"
+                                        style="width: 28%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ----------------------------- Visit END ----------------------------------- -->
+
+                <div class="card text-dark bg-white my-5 border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title h3" style="font-weight: bold;">گزارشات آپلود</h5>
+
+                        <div class="table-responsive">
+                            <table class="table mt-2 table-bordered">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">نوع آپلود</th>
+                                        <th scope="col">ایمیل کاربر</th>
+                                        <th scope="col">حجم</th>
+                                        <th scope="col">وضعیت</th>
+                                        <th scope="col">زمان</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">فایل ZIP</th>
+                                        <td>kinghoss123@gmail.com</td>
+                                        <td>15 گیگ</td>
+                                        <td>
+                                            <span class="btn btn-success d-block shadow">تکمیل شده</span>
+                                        </td>
+                                        <td>2 ساعت پیش</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">فایل ZIP</th>
+                                        <td>rabinzadeMohsen@gmail.com</td>
+                                        <td>7 گیگ</td>
+                                        <td>
+                                            <span class="btn btn-warning d-block shadow">درحال آپلود</span>
+                                        </td>
+                                        <td>2 ساعت پیش</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">فایل EXE</th>
+                                        <td>majidttt77@gmail.com</td>
+                                        <td>1.5 گیگ</td>
+                                        <td>
+                                            <span class="btn btn-warning d-block shadow">درحال آپلود</span>
+                                        </td>
+                                        <td>35 دقیقه پیش</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">فایل ZIP</th>
+                                        <td>dawrioshh9@gmail.com</td>
+                                        <td>150 مگابایت</td>
+                                        <td>
+                                            <span class="btn btn-success d-block shadow">تکمیل شده</span>
+                                        </td>
+                                        <td>1 ساعت پیش</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">فایل PNG</th>
+                                        <td>amirAmiri1376@outlook.com</td>
+                                        <td>220 مگابایت</td>
+                                        <td>
+                                            <span class="btn btn-success d-block shadow">تکمیل شده</span>
+                                        </td>
+                                        <td>0.5 ساعت پیش</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">فایل ناشناس</th>
+                                        <td>beboyyy55@econeom.com</td>
+                                        <td>30 گیگ</td>
+                                        <td>
+                                            <span class="btn btn-danger d-block shadow">نا موفق</span>
+                                        </td>
+                                        <td>2 ساعت پیش</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">فایل RAR</th>
+                                        <td>kinghoss123@gmail.com</td>
+                                        <td>600 مگابایت</td>
+                                        <td>
+                                            <span class="btn btn-success d-block shadow">تکمیل شده</span>
+                                        </td>
+                                        <td>15 دقیقه پیش</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
